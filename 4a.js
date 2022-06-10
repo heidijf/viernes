@@ -1,4 +1,4 @@
-fetch("viernes,json")
+fetch("viernes.json")
 .then(function(reponse){
     return Response.json;
 
@@ -15,9 +15,6 @@ fetch("viernes,json")
         <td>${dia.identidadsecreta}</td>
         <td>${dia.poderes}</td>
         <td><img src='${dia.imagen}'width="200Ppx" height="200px"></td>
-        </tr>
-        `
-    }
-    placeholder.innerHTML=out;
-
+        </tr> `;
+    } placeholder.innerHTML=out;
 })
