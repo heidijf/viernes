@@ -16,6 +16,6 @@ $json_arr[]=array(
 
 );
 file_put_contents($filename, json_encode($json_arr));
-header("location:http://localhost/image/viernes.html")
+header("location:http://localhost/imagen/viernes.html")
 ?>
 © 2022 Gi
