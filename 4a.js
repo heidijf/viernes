@@ -1,6 +1,6 @@
 fetch("viernes.json")
-.then(function(reponse){
-    return Response.json;
+.then(function(response){
+    return response.json();
 
 })
 .then(function(viernes){
