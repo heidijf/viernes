@@ -11,9 +11,10 @@ fetch("viernes,json")
         <tr>
         <td>${dia.id}</td>
         <td>${dia.nombre}</td>
-        <td>${dia.eada}</td>
+        <td>${dia.edad}</td>
         <td>${dia.identidadsecreta}</td>
         <td>${dia.poderes}</td>
+        <td><img src='${dia.imagen}'></td>
         </tr>
         `
     }
