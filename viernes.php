@@ -11,7 +11,9 @@ $json_arr[]=array(
 'nombre'=>$_REQUEST['nombre'],
 'edad'=>$_REQUEST['edad'],
 'identidadsecreta'=>$_REQUEST['identidadsecreta'],
-'poderes'=>$_REQUEST['poderes']
+'poderes'=>$_REQUEST['poderes'],
+'imagen'=>$_REQUEST['imagen']
+
 );
 file_put_contents($filename, json_encode($json_arr));
 header("location:http://localhost/image/viernes.html")
